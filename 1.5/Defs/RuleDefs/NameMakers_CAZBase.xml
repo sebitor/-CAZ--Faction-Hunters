@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>CAZ_Neutral_NamerFactionBases</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[nameB] military outpost</li>
+				<li>nameB->Refugio del Wyverno</li>
+				<li>nameB->Puesto de Avanzada Mantícora</li>
+				<li>nameB->Campamento de la Quimera</li>
+				<li>nameB->Guarida del Grifo</li>			
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>CAZ_Agressive_NamerFactionBases</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->Nido</li>
+				<li>name->Bastión</li>
+				<li>name->Asalto</li>
+				<li>name->Fortaleza </li>
+				<li>name->[nameB] insurgent cell</li>				
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+
+</Defs>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>CAZ_Neutral_NamerFaction</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name-> Contrato Seguro</li>
+				<li>name->Acuerdo Justo</li>
+				<li>name->Arakis</li>
+				<li>name->Servicio Preciso</li>
+				<li>name->Gracias a la vida</li>
+				<li>name->Búsqueda Constante</li>
+				
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>CAZ_Agressive_NamerFaction</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->Colmillo de Acero</li>
+				<li>name->Cicatriz Carmesí</li>
+				<li>name->Ira Desatada</li>
+				<li>name->Filo Nocturno</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

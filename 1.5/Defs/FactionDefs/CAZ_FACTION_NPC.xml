@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <FactionDef ParentName="OutlanderFactionBase" Name="CAZ_Neutral_NamerFactionBases" Abstract="True">
+        <pawnSingular>Hunter</pawnSingular>
+        <pawnsPlural>Hunters</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <listOrderPriority>30</listOrderPriority>
+        <settlementGenerationWeight>0.8</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <canMakeRandomly>true</canMakeRandomly>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>sage</leaderTitle>
+        <!-- NOTE: fixedLeaderKinds para poner nombre especifico a un lider, pone un def -->
+        <factionIconPath>World/cazadores_icon</factionIconPath>
+        <factionNameMaker>CAZ_Neutral_NamerFaction</factionNameMaker>
+        <settlementNameMaker>CAZ_Neutral_NamerFactionBases</settlementNameMaker>
+        <techLevel>Industrial</techLevel>
+        <disallowedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+        </disallowedMemes>
+        <structureMemeWeights>
+            <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+        </structureMemeWeights>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>Offworld</li>
+                </categories>
+                <commonality>0.7</commonality>
+            </li>
+            <li>
+                <categories>
+                    <li>Pirate</li>
+                </categories>
+                <commonality>0.1</commonality>
+            </li>
+            <li>
+                <categories>
+                    <li>Outlander</li>
+                </categories>
+                <commonality>0.2</commonality>
+            </li>
+      </Defs>

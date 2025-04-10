@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+    <PawnKindDef ParentName= >
+        <defName>CAZ_Leader</defName>
+        <label>CAZ Leader</label>
+        <initialResistanceRange>100</initialResistanceRange>
+        <itemQuality>Good</itemQuality>
+        <techHediffsRequired>
+            <li>DeathAcidifier</li>
+        </techHediffsRequired>
+    </PawnKindDef>
+</Defs>

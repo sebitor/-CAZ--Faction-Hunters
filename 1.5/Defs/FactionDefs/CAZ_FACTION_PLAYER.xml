@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>CAZ_Faction</defName>
+    <label>[CAZ] Cazadores</label>
+    <description>Mercenarios, cazadores, monstruos, todo depende del pago.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Colonist</basicMemberKind>
+    <pawnSingular>hunter</pawnSingular>
+    <pawnsPlural>hunters</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <factionNameMaker>CAZ_Neutral_NamerFaction</factionNameMaker>
+    <settlementNameMaker>CAZ_Neutral_NamerFactionBases</settlementNameMaker>
+    <allowedCultures>
+      <li>Astropolitan</li>
+    </allowedCultures>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>World/cazadores_icon</factionIconPath>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>ClassicStart</li>
+      <li>ClassicStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+
+</Defs>
